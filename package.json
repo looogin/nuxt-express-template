@@ -11,8 +11,7 @@
 		"workbox": "workbox injectManifest workbox-config.js",
 		"sw": "cross-env NODE_ENV=production webpack --progress --hide-modules"
 	},
-	"dependencies": {
-		"@nuxtjs/pwa": "^3.0.2",
+	"dependencies": {		
 		"axios": "latest",
 		"cross-env": "latest",
 		"express": "latest",
